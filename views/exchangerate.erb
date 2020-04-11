@@ -1,0 +1,24 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <table class="table table-striped table-dark">
+                <thead>
+                    <tr>
+                        <% result.first.keys.each do | title | %>
+                        <td><%= title %></td>
+                        <% end %>
+                    </tr>
+                </thead>
+                <tbody>
+                    <% result.each do | month | %>
+                    <tr>    
+                        <% month.values.each do | item | %>
+                            <td><%= item %></td>
+                        <% end %> 
+                    </tr>    
+                    <% end %>   
+                </tbody>
+            </table>
+        </div>
+    </div>    
+</div>
