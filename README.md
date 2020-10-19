@@ -1,2 +1,4 @@
-# OpenDataPractice
-## 抓各國匯率資料練習
+# 抓各國匯率資料練習
+---
+- 使用 Sinatra 框架。 
+- 採用 OpenSSL 抓取政府開放資料渲染至畫面。
